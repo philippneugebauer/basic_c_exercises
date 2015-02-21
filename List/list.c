@@ -64,11 +64,6 @@ void delete(Listhead *head, char* string){
 	}
 }
 
-
-//TODO: getVal programmieren
-
-
-
 void printList(Listhead *head){
 	printf("Die Liste enthaelt folgende Werte: \n");
 	struct dllnode *pointer = head->list;
